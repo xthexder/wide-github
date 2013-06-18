@@ -10,7 +10,7 @@ Installing
 
 As a Chrome Extension:
 
-...
+This chrome extension can be installed from the [Chrome Web Store](https://chrome.google.com/webstore/detail/wide-github/kaalofacklcidaampbokdplbklpeldpj)
 
 As a Greasemonkey script:
 
