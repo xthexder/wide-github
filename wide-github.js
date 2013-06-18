@@ -41,6 +41,9 @@ if (document.getElementById('js-repo-pjax-container')) {
     ".repository-content .header-with-actions .select-menu {" +
       "clear:none !important;" +
     "}" +
+    ".repository-content .issue-head:after {" +
+      "clear:none !important;" +
+    "}" +
     ".repository-content .capped-box h3:after {" +
       "clear:none !important;" +
     "}" +
