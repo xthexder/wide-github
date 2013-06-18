@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Wide Github",
+  "description": "Change all github repository pages to be full width and dynamically sized.",
+  "version": "1.0",
+
+  "permissions": [
+    "tabs", "https://github.com/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["wide-github.js"]
+    }
+  ]
+}
