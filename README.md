@@ -14,4 +14,8 @@ This chrome extension can be installed from the [Chrome Web Store](https://chrom
 
 As a Greasemonkey script:
 
-Go to [wide-github.js](https://raw.github.com/xthexder/wide-github/master/wide-github.js) and select-all + copy. Then go to greasemonkey and click `New User Script...`. There should be an option for `Use Script from Clipboard`.
+This script can be installed into Greasemonkey on [userscripts.org](http://userscripts.org/scripts/show/171356).
+
+Everything else:
+
+The actual script can be found here: [wide-github.js](https://raw.github.com/xthexder/wide-github/master/wide-github.js)
