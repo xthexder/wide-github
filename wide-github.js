@@ -2,7 +2,7 @@
 // @name        Wide Github
 // @namespace   https://github.com/xthexder/wide-github
 // @include     *github.com*
-// @version     1.0.1
+// @version     1.0.2
 // @grant       none
 // ==/UserScript==
 
@@ -35,33 +35,44 @@ if (document.getElementById('js-repo-pjax-container')) {
       "width:auto !important;" +
       "margin-left:250px;" +
     "}" +
+    ".repository-content .repo-settings-content .column.main .rule {" +
+      "clear:none !important;" +
+    "}" +
+    ".repository-content .repo-settings-content {" +
+      "float:none !important;" +
+      "width:auto !important;" +
+      "margin-left:225px;" +
+    "}" +
     ".repository-content .pulls-list-group .list-group-item:after {" +
       "clear:none !important;" +
     "}" +
     ".repository-content .header-with-actions .select-menu {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
+    "}" +
+    ".repository-content .branch-infobar:after {" +
+      "clear:left !important;" +
     "}" +
     ".repository-content .issue-head:after {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
     "}" +
     ".repository-content .commit-meta:after {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
     "}" +
     ".repository-content #toc .content {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
       "margin-top:10px;" +
     "}" +
     ".repository-content .capped-box h3:after {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
     "}" +
     ".repository-content .graph-filter:after {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
     "}" +
     ".repository-content h2.ghead:after {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
     "}" +
     ".repository-content .section-heading:after {" +
-      "clear:none !important;" +
+      "clear:left !important;" +
     "}" +
     ".repository-content .js-graph-punchcard {" +
       "max-width:920px !important;" +
