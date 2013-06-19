@@ -44,6 +44,13 @@ if (document.getElementById('js-repo-pjax-container')) {
     ".repository-content .issue-head:after {" +
       "clear:none !important;" +
     "}" +
+    ".repository-content .commit-meta:after {" +
+      "clear:none !important;" +
+    "}" +
+    ".repository-content #toc .content {" +
+      "clear:none !important;" +
+      "margin-top:10px;" +
+    "}" +
     ".repository-content .capped-box h3:after {" +
       "clear:none !important;" +
     "}" +
