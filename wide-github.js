@@ -38,6 +38,9 @@ if (document.getElementById('js-repo-pjax-container')) {
     ".repository-content .repo-settings-content .column.main .rule {" +
       "clear:none !important;" +
     "}" +
+    ".repository-content .empty-repo .rule {" +
+      "clear:none !important;" +
+    "}" +
     ".repository-content .repo-settings-content {" +
       "float:none !important;" +
       "width:auto !important;" +
