@@ -27,7 +27,7 @@ if (document.getElementById('js-repo-pjax-container')) {
       "margin-right:200px;" +
     "}" +
     ".repository-content .discussion-timeline {" +
-      "margin-right:120px;" +
+      "margin-right:160px;" +
       "width:auto !important;" +
     "}" +
     ".repository-content .column.main {" +
