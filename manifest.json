@@ -3,7 +3,7 @@
 
   "name": "Wide Github",
   "description": "Change all github repository pages to be full width and dynamically sized.",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
   "permissions": [
     "tabs", "https://github.com/*"
