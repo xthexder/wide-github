@@ -77,6 +77,9 @@ if (document.getElementById('js-repo-pjax-container')) {
     ".repository-content .section-heading:after {" +
       "clear:left !important;" +
     "}" +
+    ".repository-content .file .meta:after {" +
+      "clear:left !important;" +
+    "}" +
     ".repository-content .user-list .tabnav-widget {" +
       "clear:none !important;" +
     "}" +
