@@ -1,9 +1,9 @@
 Wide Github
 ===========
 
-> Only compatible with the new repository browser.
+This plugin changes all github repository pages to be full width and dynamically sized.
 
-This user script changes all github repository pages to be full width and dynamically sized.
+This repository always contains the latest version, the Chrome Store and userscripts.org may not have been updated as recently.
 
 Installing
 ----------

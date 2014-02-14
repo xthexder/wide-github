@@ -2,7 +2,7 @@
 // @name        Wide Github
 // @namespace   https://github.com/xthexder/wide-github
 // @include     *github.com*
-// @version     1.0.3
+// @version     1.0.4
 // @grant       none
 // ==/UserScript==
 
@@ -13,78 +13,33 @@ if (document.getElementById('js-repo-pjax-container')) {
       "width:90% !important;" +
       "min-width:980px;" +
     "}" +
-    ".repository-content {" +
-      "float:none !important;" +
-      "width:auto !important;" +
+    ".repository-with-sidebar {" +
+      "margin-left:60px;" +
     "}" +
-    ".repository-content .repository-meta:after {" +
-      "clear:left !important;" +
+    ".repository-with-sidebar.with-full-navigation {" +
+      "margin-left:190px;" +
+    "}" +
+    ".repository-content {" +
+      "width:100% !important;" +
+      "margin-right: auto !important;" +
     "}" +
     ".repository-with-sidebar .repository-content {" +
-      "margin-right:68px;" +
+      "margin-left:-60px;" +
     "}" +
     ".repository-with-sidebar.with-full-navigation .repository-content {" +
-      "margin-right:200px;" +
+      "margin-left:-190px;" +
     "}" +
     ".repository-content .discussion-timeline {" +
       "margin-right:160px;" +
       "width:auto !important;" +
     "}" +
-    ".repository-content .column.main {" +
-      "float:none !important;" +
-      "width:auto !important;" +
-      "margin-left:250px;" +
-    "}" +
-    ".repository-content .repo-settings-content .column.main .rule {" +
-      "clear:none !important;" +
-    "}" +
-    ".repository-content .empty-repo .rule {" +
-      "clear:none !important;" +
-    "}" +
     ".repository-content .repo-settings-content {" +
       "float:none !important;" +
       "width:auto !important;" +
-      "margin-left:225px;" +
+      "margin-left:235px;" +
     "}" +
-    ".repository-content .pulls-list-group .list-group-item:after {" +
-      "clear:none !important;" +
-    "}" +
-    ".repository-content .header-with-actions .select-menu {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content .branch-infobar:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content .issue-head:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content .commit-meta:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content #toc .content {" +
-      "clear:left !important;" +
-      "margin-top:10px;" +
-    "}" +
-    ".repository-content .capped-box h3:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content .graph-filter:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content h2.ghead:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content .section-heading:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content .file .meta:after {" +
-      "clear:left !important;" +
-    "}" +
-    ".repository-content .user-list .tabnav-widget {" +
-      "clear:none !important;" +
-    "}" +
-    ".repository-content .js-graph-punchcard {" +
-      "max-width:920px !important;" +
+    ".repository-content .repo-settings-content .tab-content .clearfix:after {" + // Fix for deploy keys tab
+      "clear:right !important;" +
     "}";
   (document.head || document.documentElement).appendChild(s);
 }
