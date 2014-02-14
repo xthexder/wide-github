@@ -2,7 +2,7 @@
 // @name        Wide Github
 // @namespace   https://github.com/xthexder/wide-github
 // @include     *github.com*
-// @version     1.0.4
+// @version     1.0.5
 // @grant       none
 // ==/UserScript==
 
@@ -33,13 +33,21 @@ if (document.getElementById('js-repo-pjax-container')) {
       "margin-right:160px;" +
       "width:auto !important;" +
     "}" +
-    ".repository-content .repo-settings-content {" +
-      "float:none !important;" +
-      "width:auto !important;" +
-      "margin-left:235px;" +
+    ".repository-content #repo-settings {" +
+      "margin-right:235px;" +
     "}" +
-    ".repository-content .repo-settings-content .tab-content .clearfix:after {" + // Fix for deploy keys tab
-      "clear:right !important;" +
+    ".repository-content .repo-settings-content {" +
+      "margin-right:-235px !important;" +
+      "margin-left:auto !important;" +
+      "width:100% !important;" +
+    "}" +
+    ".repository-content .new-release {" +
+      "margin-left:270px;" +
+    "}" +
+    ".repository-content .new-release .column.main {" +
+      "margin-left:-270px !important;" +
+      "margin-right:auto !important;" +
+      "width:100% !important;" +
     "}";
   (document.head || document.documentElement).appendChild(s);
 }
