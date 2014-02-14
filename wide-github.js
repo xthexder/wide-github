@@ -33,6 +33,9 @@ if (document.getElementById('js-repo-pjax-container')) {
       "margin-right:160px;" +
       "width:auto !important;" +
     "}" +
+    ".repository-content .comment-holder {" +
+      "max-width:none !important;" +
+    "}" +
     ".repository-content #repo-settings {" +
       "margin-right:235px;" +
     "}" +
