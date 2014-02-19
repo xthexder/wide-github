@@ -17,7 +17,7 @@ if (document.getElementById('js-repo-pjax-container')) {
       "width:100% !important;" +
       "margin-right: auto !important;" +
     "}" +
-      
+
     // Repository sidebar
     ".repository-with-sidebar {" +
       "margin-left:60px;" +
@@ -73,7 +73,7 @@ if (document.getElementById('js-repo-pjax-container')) {
     "}" +
 
     // Repository pulse page
-      ".repository-content .overall-summary .graphs:after {" + // Overview PR / Issue graphs
+    ".repository-content .overall-summary .graphs:after {" + // Overview PR / Issue graphs
       "content:' ';" +
       "display:table;" +
       "clear:both;" +
@@ -84,10 +84,10 @@ if (document.getElementById('js-repo-pjax-container')) {
       "float:left;" +
       "width:50% !important;" +
     "}" +
-      ".repository-content .overall-summary .graph:first-child {" +
+    ".repository-content .overall-summary .graph:first-child {" +
       "border-right:none !important;" +
     "}" +
-      ".repository-content .overall-summary .summary-stats:after {" + // Overview PR / Issue counts
+    ".repository-content .overall-summary .summary-stats:after {" + // Overview PR / Issue counts
       "content:' ';" +
       "display:table;" +
       "clear:both;" +
@@ -101,6 +101,29 @@ if (document.getElementById('js-repo-pjax-container')) {
       "width:50% !important;" +
     "}" +
     ".repository-content .authors-and-code .section svg {" +
+      "width:100% !important;" +
+    "}" +
+
+    // Repository graph page
+    ".repository-content .capped-card {" + // Graph cards on contributors / graph list
+      "margin:10px 10px 0 0 !important;" +
+    "}" +
+      ".repository-content .traffic-graph-stats:after {" + // Traffic view / visitor count
+      "content:' ';" +
+      "display:table;" +
+      "clear:both;" +
+    "}" +
+    ".repository-content .traffic-graph-stats .col {" +
+      "display:block;" +
+      "float:left;" +
+      "width:50%;" +
+    "}" +
+    ".repository-content #top-lists .col {" + // Traffic top domains / content
+      "display:block;" +
+      "float:left;" +
+      "width:50%;" +
+    "}" +
+    ".repository-content #top-lists .col .capped-box {" +
       "width:100% !important;" +
     "}" +
     "";
