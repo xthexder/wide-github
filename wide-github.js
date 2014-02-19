@@ -2,7 +2,7 @@
 // @name        Wide Github
 // @namespace   https://github.com/xthexder/wide-github
 // @include     *github.com*
-// @version     1.0.5
+// @version     1.0.6
 // @grant       none
 // ==/UserScript==
 
