@@ -73,35 +73,29 @@ if (document.getElementById('js-repo-pjax-container')) {
     "}" +
 
     // Repository pulse page
-    ".repository-content .overall-summary .graphs:after {" + // Overview PR / Issue graphs
-      "content:' ';" +
+    ".repository-content .overall-summary .graphs {" + // Overview PR / Issue graphs
       "display:table;" +
-      "clear:both;" +
+      "width:100%;" +
     "}" +
-    ".repository-content .overall-summary .graph {" +
-      "display:block !important;" +
+    ".repository-content .overall-summary .graphs .graph {" +
       "border-left:1px solid #EEEEEE;" +
-      "float:left;" +
       "width:50% !important;" +
     "}" +
-    ".repository-content .overall-summary .graph:first-child {" +
+    ".repository-content .overall-summary .graphs .graph:first-child {" +
       "border-right:none !important;" +
     "}" +
-    ".repository-content .overall-summary .summary-stats:after {" + // Overview PR / Issue counts
-      "content:' ';" +
+    ".repository-content .overall-summary .summary-stats {" + // Overview PR / Issue counts
       "display:table;" +
-      "clear:both;" +
+      "width:100%;" +
     "}" +
     ".repository-content .overall-summary .summary-stats li {" +
-      "display:block !important;" +
-      "float:left;" +
       "width:25% !important;" +
     "}" +
     ".repository-content .authors-and-code .section {" + // Contributors bar graph
-      "width:50% !important;" +
+      "width:50%;" +
     "}" +
     ".repository-content .authors-and-code .section svg {" +
-      "width:100% !important;" +
+      "width:100%;" +
     "}" +
 
     // Repository graph page
