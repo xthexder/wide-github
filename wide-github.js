@@ -13,15 +13,17 @@ if (document.getElementById('js-repo-pjax-container')) {
       "width:90% !important;" +
       "min-width:980px;" +
     "}" +
+    ".repository-content {" +
+      "width:100% !important;" +
+      "margin-right: auto !important;" +
+    "}" +
+
+    // Repository sidebar
     ".repository-with-sidebar {" +
       "margin-left:60px;" +
     "}" +
     ".repository-with-sidebar.with-full-navigation {" +
       "margin-left:190px;" +
-    "}" +
-    ".repository-content {" +
-      "width:100% !important;" +
-      "margin-right: auto !important;" +
     "}" +
     ".repository-with-sidebar .repository-content {" +
       "margin-left:-60px;" +
@@ -29,13 +31,8 @@ if (document.getElementById('js-repo-pjax-container')) {
     ".repository-with-sidebar.with-full-navigation .repository-content {" +
       "margin-left:-190px;" +
     "}" +
-    ".repository-content .discussion-timeline {" +
-      "margin-right:160px;" +
-      "width:auto !important;" +
-    "}" +
-    ".repository-content .comment-holder {" +
-      "max-width:none !important;" +
-    "}" +
+
+    // Repository settings tabs
     ".repository-content #repo-settings {" +
       "margin-right:235px;" +
     "}" +
@@ -44,6 +41,8 @@ if (document.getElementById('js-repo-pjax-container')) {
       "margin-left:auto !important;" +
       "width:100% !important;" +
     "}" +
+
+    // New Release form
     ".repository-content .new-release {" +
       "margin-left:270px;" +
     "}" +
@@ -51,6 +50,26 @@ if (document.getElementById('js-repo-pjax-container')) {
       "margin-left:-270px !important;" +
       "margin-right:auto !important;" +
       "width:100% !important;" +
+    "}" +
+
+    // Repository Issues
+    ".repository-content .discussion-timeline-cols {" + // New Issue form
+      "margin-left:200px;" +
+    "}" +
+    ".repository-content .discussion-timeline-cols .column.main {" +
+      "margin-left:-200px !important;" +
+      "margin-right:auto !important;" +
+      "width:100% !important;" +
+    "}" +
+    ".repository-content .discussion-timeline {" + // Issue body
+      "margin-right:160px;" +
+      "width:auto !important;" +
+    "}" +
+    ".repository-content .inline-coomments .comment-holder {" + // Diff / code comments
+      "max-width:none !important;" +
+    "}" +
+    ".repository-content .inline-coomments .inline-comment-form {" +
+      "max-width:none !important;" +
     "}";
   (document.head || document.documentElement).appendChild(s);
 }
