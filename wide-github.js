@@ -17,7 +17,7 @@ if (document.getElementById('js-repo-pjax-container')) {
       "width:100% !important;" +
       "margin-right: auto !important;" +
     "}" +
-
+      
     // Repository sidebar
     ".repository-with-sidebar {" +
       "margin-left:60px;" +
@@ -30,26 +30,6 @@ if (document.getElementById('js-repo-pjax-container')) {
     "}" +
     ".repository-with-sidebar.with-full-navigation .repository-content {" +
       "margin-left:-190px;" +
-    "}" +
-
-    // Repository settings tabs
-    ".repository-content #repo-settings {" +
-      "margin-right:235px;" +
-    "}" +
-    ".repository-content .repo-settings-content {" +
-      "margin-right:-235px !important;" +
-      "margin-left:auto !important;" +
-      "width:100% !important;" +
-    "}" +
-
-    // New Release form
-    ".repository-content .new-release {" +
-      "margin-left:270px;" +
-    "}" +
-    ".repository-content .new-release .column.main {" +
-      "margin-left:-270px !important;" +
-      "margin-right:auto !important;" +
-      "width:100% !important;" +
     "}" +
 
     // Repository Issues
@@ -70,6 +50,59 @@ if (document.getElementById('js-repo-pjax-container')) {
     "}" +
     ".repository-content .inline-coomments .inline-comment-form {" +
       "max-width:none !important;" +
-    "}";
+    "}" +
+
+    // New Release form
+    ".repository-content .new-release {" +
+      "margin-left:270px;" +
+    "}" +
+    ".repository-content .new-release .column.main {" +
+      "margin-left:-270px !important;" +
+      "margin-right:auto !important;" +
+      "width:100% !important;" +
+    "}" +
+
+    // Repository settings tabs
+    ".repository-content #repo-settings {" +
+      "margin-right:235px;" +
+    "}" +
+    ".repository-content .repo-settings-content {" +
+      "margin-right:-235px !important;" +
+      "margin-left:auto !important;" +
+      "width:100% !important;" +
+    "}" +
+
+    // Repository pulse page
+      ".repository-content .overall-summary .graphs:after {" + // Overview PR / Issue graphs
+      "content:' ';" +
+      "display:table;" +
+      "clear:both;" +
+    "}" +
+    ".repository-content .overall-summary .graph {" +
+      "display:block !important;" +
+      "border-left:1px solid #EEEEEE;" +
+      "float:left;" +
+      "width:50% !important;" +
+    "}" +
+      ".repository-content .overall-summary .graph:first-child {" +
+      "border-right:none !important;" +
+    "}" +
+      ".repository-content .overall-summary .summary-stats:after {" + // Overview PR / Issue counts
+      "content:' ';" +
+      "display:table;" +
+      "clear:both;" +
+    "}" +
+    ".repository-content .overall-summary .summary-stats li {" +
+      "display:block !important;" +
+      "float:left;" +
+      "width:25% !important;" +
+    "}" +
+    ".repository-content .authors-and-code .section {" + // Contributors bar graph
+      "width:50% !important;" +
+    "}" +
+    ".repository-content .authors-and-code .section svg {" +
+      "width:100% !important;" +
+    "}" +
+    "";
   (document.head || document.documentElement).appendChild(s);
 }
