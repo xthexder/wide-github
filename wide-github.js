@@ -45,10 +45,10 @@ if (document.getElementById('js-repo-pjax-container')) {
       "margin-right:160px;" +
       "width:auto !important;" +
     "}" +
-    ".repository-content .inline-coomments .comment-holder {" + // Diff / code comments
+    ".repository-content .inline-comments .comment-holder {" + // Diff / code comments
       "max-width:none !important;" +
     "}" +
-    ".repository-content .inline-coomments .inline-comment-form {" +
+    ".repository-content .inline-comments .inline-comment-form {" +
       "max-width:none !important;" +
     "}" +
 
