@@ -2,7 +2,7 @@
 // @name        Wide Github
 // @namespace   https://github.com/xthexder/wide-github
 // @include     *github.com*
-// @version     1.0.6
+// @version     1.0.7
 // @grant       none
 // ==/UserScript==
 
@@ -44,6 +44,7 @@ if (document.getElementById('js-repo-pjax-container')) {
     ".repository-content .discussion-timeline {" + // Issue body
       "margin-right:160px;" +
       "width:auto !important;" +
+      "float: none !important;" +
     "}" +
     ".repository-content .inline-comments .comment-holder {" + // Diff / code comments
       "max-width:none !important;" +
