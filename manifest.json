@@ -3,7 +3,7 @@
 
   "name": "Wide Github",
   "description": "Change all github repository pages to be full width and dynamically sized.",
-  "version": "1.0.7",
+  "version": "1.0.8",
 
   "permissions": [
     "tabs", "https://github.com/*"
@@ -15,6 +15,12 @@
     {
       "matches": ["https://github.com/*"],
       "js": ["wide-github.js"]
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT License",
+      "url": "http://opensource.org/licenses/mit-license.php",
     }
   ]
 }
