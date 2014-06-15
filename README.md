@@ -14,7 +14,7 @@ This chrome extension can be installed from the [Chrome Web Store](https://chrom
 
 As a Greasemonkey script:
 
-This script can be installed into Greasemonkey on [userscripts.org](http://userscripts.org/scripts/show/171356).
+This script can be installed into Greasemonkey on [openuserjs.org](https://openuserjs.org/scripts/xthexder/httpsgithub.comxthexderwide-github/Wide_Github).
 
 Everything else:
 
