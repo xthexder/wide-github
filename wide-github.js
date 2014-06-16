@@ -12,7 +12,6 @@
 // @license     MIT License; http://opensource.org/licenses/mit-license.php
 // @version     1.0.8
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
-// @homepage    https://github.com/xthexder/wide-github
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
 // @include     *github.com*
