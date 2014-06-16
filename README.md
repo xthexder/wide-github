@@ -18,4 +18,4 @@ This script can be installed into Greasemonkey on [openuserjs.org](https://openu
 
 Everything else:
 
-The actual script can be found here: [wide-github.js](https://raw.github.com/xthexder/wide-github/master/wide-github.js)
+The actual script can be found here: [wide-github.user.js](https://raw.githubusercontent.com/xthexder/wide-github/master/wide-github.user.js)
