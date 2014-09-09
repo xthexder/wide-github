@@ -10,7 +10,7 @@
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
 // @license     MIT License; http://opensource.org/licenses/mit-license.php
-// @version     1.0.8
+// @version     1.0.9
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -58,7 +58,10 @@
         "width:auto !important;" +
         "float: none !important;" +
       "}" +
-      ".repository-content .inline-comments .comment-holder {" + // Diff / code comments
+      ".repository-content .discussion-item-body .meta:after {" + // Diff / code comments
+        "clear:left !important;" +
+      "}" +
+      ".repository-content .inline-comments .comment-holder {" +
         "max-width:none !important;" +
       "}" +
       ".repository-content .inline-comments .inline-comment-form {" +
