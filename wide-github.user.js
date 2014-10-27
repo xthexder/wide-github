@@ -61,7 +61,13 @@
       ".repository-content .discussion-item-body .meta:after {" + // Diff / code comments
         "clear:left !important;" +
       "}" +
+      ".repository-content .discussion-timeline-actions .timeline-new-comment {" +
+        "max-width:none !important;" +
+      "}" +
       ".repository-content .inline-comments .comment-holder {" +
+        "max-width:none !important;" +
+      "}" +
+      ".repository-content .inline-comments .inline-comment-form-container {" +
         "max-width:none !important;" +
       "}" +
       ".repository-content .inline-comments .inline-comment-form {" +
