@@ -4,7 +4,7 @@
 // ==UserScript==
 // @name        Wide Github
 // @namespace   https://github.com/xthexder/wide-github
-// @description This plugin changes all github repository pages to be full width and dynamically sized.
+// @description Change all github repository pages to be full width and dynamically sized.
 // @author      xthexder
 // @copyright   2013+, xthexder (https://github.com/xthexder)
 // @contributor Jason Frey (https://github.com/Fryguy)
