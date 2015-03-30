@@ -9,8 +9,8 @@
 // @copyright   2013+, xthexder (https://github.com/xthexder)
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
-// @license     MIT License; http://opensource.org/licenses/mit-license.php
-// @version     1.0.9
+// @license     MIT License; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
+// @version     1.0.10
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -58,7 +58,7 @@
         "padding-right:160px;" +
         "width:100% !important;" +
       "}" +
-      ".repository-content .discussion-timeline .timeline-new-comment {" + // New Issue / issue comment form
+      ".repository-content .timeline-new-comment {" + // New Issue / issue comment form
         "max-width:100% !important;" +
       "}" +
       ".repository-content .inline-comments .comment-holder {" + // Diff / code comments
