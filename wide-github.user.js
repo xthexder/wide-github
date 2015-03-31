@@ -10,7 +10,7 @@
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
 // @license     MIT License; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.0.10
+// @version     1.0.11
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -54,8 +54,8 @@
 
       // Repository Issues
       ".repository-content .discussion-timeline {" + // Issue body
-        "margin-right:-160px;" +
-        "padding-right:160px;" +
+        "margin-left:-160px;" +
+        "padding-left:160px;" +
         "width:100% !important;" +
       "}" +
       ".repository-content .timeline-new-comment {" + // New Issue / issue comment form
