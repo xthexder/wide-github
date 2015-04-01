@@ -57,6 +57,7 @@
         "margin-left:-160px;" +
         "padding-left:160px;" +
         "width:100% !important;" +
+        "z-index:-1 !important;" +
       "}" +
       ".repository-content .timeline-new-comment {" + // New Issue / issue comment form
         "max-width:100% !important;" +
