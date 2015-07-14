@@ -69,6 +69,9 @@
       ".repository-content .timeline-new-comment {" + // New Issue / issue comment form
         "max-width:100% !important;" +
       "}" +
+      ".repository-content .inline-comments {" + // New code comment
+        "max-width:none !important;" +
+      "}" +
       ".repository-content .inline-comments .comment-holder {" + // Diff / code comments
         "max-width:none !important;" +
       "}" +
