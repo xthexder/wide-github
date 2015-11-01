@@ -10,7 +10,7 @@
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
 // @license     MIT License; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.0.12
+// @version     1.1.0
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -18,7 +18,7 @@
 // @grant       none
 // ==/UserScript==
 
-  if (document.getElementById('js-repo-pjax-container')) {
+  if (document.getElementById('js-repo-pjax-container') || document.getElementById('gist-pjax-container')) {
     var s = document.createElement('style');
     s.type = "text/css";
     s.innerHTML = ".container {" +
@@ -104,6 +104,13 @@
       "}" +
       ".repository-content .traffic-graph-stats .summary-stats li {" +
         "width:50% !important;" +
+      "}" +
+
+      // Gists
+      ".repository-content .gist-discussion-timeline {" +
+        "margin-left: 0 !important;" +
+        "padding-left: 0 !important;" +
+        "width:100% !important;" +
       "}" +
       "";
     (document.head || document.documentElement).appendChild(s);
