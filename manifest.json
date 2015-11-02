@@ -3,18 +3,15 @@
 
   "name": "Wide Github",
   "description": "Change all Github repository and gist pages to be full width and dynamically sized.",
-  "version": "1.1.0",
+  "version": "1.1.1",
 
-  "permissions": [
-    "tabs", "https://github.com/*", "https://gist.github.com/*"
-  ],
   "browser_action": {
     "default_icon": "icon.png"
   },
   "content_scripts": [
     {
       "matches": ["https://github.com/*", "https://gist.github.com/*"],
-      "js": ["wide-github.user.js"]
+      "css": ["wide-github.css"]
     }
   ],
   "licenses": [

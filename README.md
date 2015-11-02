@@ -15,3 +15,8 @@ This chrome extension can be installed from the [Chrome Web Store](https://chrom
 As a Greasemonkey / userscript:
 
 This script can be installed into Greasemonkey or other user script plugins by going here: [wide-github.user.js](https://raw.githubusercontent.com/xthexder/wide-github/master/wide-github.user.js)
+
+Development
+-----------
+
+To generate the user.js file for Greasemonkey, run `make js`. The chrome extension can be built using `make chrome`.
