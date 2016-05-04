@@ -54,13 +54,13 @@
   max-width:100% !important;
 }
 .repository-content .inline-comments .comment-holder { /* Diff / code comments */
-  max-width:none !important;
+  max-width:920px !important;
 }
 .repository-content .inline-comments .inline-comment-form-container {
-  max-width:none !important;
+  max-width:920px !important;
 }
 .repository-content .inline-comments .inline-comment-form {
-  max-width:none !important;
+  max-width:920px !important;
 }
 
 /* Repository pulse page */
