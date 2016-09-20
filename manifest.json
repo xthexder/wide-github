@@ -11,6 +11,7 @@
   "content_scripts": [
     {
       "matches": ["https://github.com/*", "https://gist.github.com/*"],
+      "exclude_matches": ["https://github.com/settings/*"],
       "css": ["wide-github.css"]
     }
   ],
