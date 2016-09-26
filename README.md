@@ -12,7 +12,7 @@ As a Chrome Extension:
 
 This chrome extension can be installed from the [Chrome Web Store](https://chrome.google.com/webstore/detail/wide-github/kaalofacklcidaampbokdplbklpeldpj)
 
-As a Greasemonkey / userscript:
+As a Greasemonkey / UserScript:
 
 This script can be installed into Greasemonkey or other user script plugins by going here: [wide-github.user.js](https://raw.githubusercontent.com/xthexder/wide-github/master/wide-github.user.js)
 
