@@ -18,8 +18,8 @@
 // ==/UserScript==
 
 var styleSheet = "" +
-".header .container," +
-".header .container-lg {" +
+"header .container," +
+"header .container-lg {" +
   "width: auto !important;" +
   "margin-left: 20px !important;" +
   "margin-right: 20px !important;" +
