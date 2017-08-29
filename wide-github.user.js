@@ -24,6 +24,7 @@ var styleSheet = "" +
   "margin-left: 20px !important;" +
   "margin-right: 20px !important;" +
   "min-width: 980px;" +
+  "max-width: initial;" +
 "}" +
 "#js-repo-pjax-container .container {" +
   "width: auto !important;" +
