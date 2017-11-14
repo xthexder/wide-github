@@ -8,7 +8,7 @@
 // @copyright   2013+, xthexder (https://github.com/xthexder)
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
-// @license     MIT License; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
+// @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
 // @version     1.2.0
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
