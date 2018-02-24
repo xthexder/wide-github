@@ -8,16 +8,20 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
+  "background": {
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": ["https://github.com/*", "https://gist.github.com/*"],
-      "css": ["wide-github.css"]
+      "js": ["jquery-3.3.1.min.js", "insert_css.js"]
     }
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE"
-    }
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "web_accessible_resources": [
+    "wide-github.css"
   ]
 }
