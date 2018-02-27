@@ -14,7 +14,7 @@
   "content_scripts": [
     {
       "matches": ["https://github.com/*", "https://gist.github.com/*"],
-      "js": ["jquery-3.3.1.min.js", "insert_css.js"]
+      "js": ["insert_css.js"]
     }
   ],
   "permissions": [

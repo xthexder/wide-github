@@ -8,13 +8,13 @@ function handleResponse(response)
   if (response.shouldInject)
   {
     var path = chrome.extension.getURL('wide-github.css');
-    $('head').append($('<link>')
-        .attr("rel","stylesheet")
-        .attr("type","text/css")
-        .attr("href", path));
+    var link = document.createElement("link");
+    link.href = path;
+    link.rel = "stylesheet";
+    document.getElementsByTagName('head')[0].appendChild(link);
   }
 }
 
-$(document).ready(function() {
+window.onload = function() {
   getShouldInject(handleResponse);
-});
+}

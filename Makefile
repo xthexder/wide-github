@@ -5,7 +5,7 @@ js:
 	node make.js
 
 chrome:
-	zip wide-github.zip LICENSE manifest.json wide-github.css icon.png background.js insert_css.js jquery-3.3.1.min.js
+	zip wide-github.zip LICENSE manifest.json wide-github.css icon.png background.js insert_css.js
 
 clean:
 	rm -f wide-github.zip
