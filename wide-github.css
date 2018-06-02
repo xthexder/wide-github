@@ -1,8 +1,6 @@
-.header .container,
-.header .container-lg {
-  width: auto !important;
-  margin-left: 20px !important;
-  margin-right: 20px !important;
+header .container,
+header .container-lg {
+  max-width: none !important;
   min-width: 980px;
 }
 #js-repo-pjax-container .container {
@@ -26,6 +24,9 @@
   margin-left: -220px;
   padding-left: 220px;
   width: 100% !important;
+}
+.discussion-timeline::before { /* The vertical line running through the commit list on PRs */
+  margin-left: 220px;
 }
 .repository-content .discussion-sidebar {
   width: 200px !important;

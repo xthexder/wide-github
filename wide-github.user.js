@@ -9,7 +9,7 @@
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
-// @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
+// @license     MIT License; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
 // @version     1.2.1
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
@@ -19,10 +19,9 @@
 // ==/UserScript==
 
 var styleSheet = "" +
-".header .container {" +
-  "width: auto !important;" +
-  "margin-left: 20px !important;" +
-  "margin-right: 20px !important;" +
+"header .container," +
+"header .container-lg {" +
+  "max-width: none !important;" +
   "min-width: 980px;" +
 "}" +
 "#js-repo-pjax-container .container {" +

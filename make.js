@@ -13,6 +13,7 @@ var header = "" +
 "// @copyright   2013+, xthexder (https://github.com/xthexder)\n" +
 "// @contributor Jason Frey (https://github.com/Fryguy)\n" +
 "// @contributor Marti Martz (https://github.com/Martii)\n" +
+"// @contributor Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
 "// @license     MIT License; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE\n" +
 "// @version     " + manifest["version"] + "\n" +
 "// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png\n" +
