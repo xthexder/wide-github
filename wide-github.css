@@ -41,7 +41,7 @@ header .container-lg {
   max-width: inherit !important;
 }
 .repository-content .inline-comments .inline-comment-form {
-  max-width: inherit !important;" +
+  max-width: inherit !important;
 }
 
 .repository-content #all_commit_comments .commit-comments-heading,
