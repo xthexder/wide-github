@@ -10,7 +10,7 @@
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.2.1
+// @version     1.2.2
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -56,13 +56,18 @@ var styleSheet = "" +
   "max-width: 100% !important;" +
 "}" +
 ".repository-content .inline-comments .comment-holder {" + // Diff / code comments
-  "max-width: 960px !important;" +
+  "max-width: inherit !important;" +
 "}" +
 ".repository-content .inline-comments .inline-comment-form-container {" +
-  "max-width: 960px !important;" +
+  "max-width: inherit !important;" +
 "}" +
 ".repository-content .inline-comments .inline-comment-form {" +
-  "max-width: 960px !important;" +
+  "max-width: inherit !important;" +
+"}" +
+
+".repository-content #all_commit_comments .commit-comments-heading," +
+".repository-content #all_commit_comments .comment-holder {" +
+  "max-width: inherit !important;" +
 "}" +
 
 // Repository pulse page
