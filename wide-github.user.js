@@ -10,7 +10,7 @@
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.2.2
+// @version     1.2.3
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -46,7 +46,7 @@ var styleSheet = "" +
   "padding-left: 220px;" +
   "width: 100% !important;" +
 "}" +
-".discussion-timeline::before {" + // The vertical line running through the commit list on PRs
+"#js-repo-pjax-container .repository-content .discussion-timeline::before {" + // The vertical line running through the commit list on PRs and issues
   "margin-left: 220px;" +
 "}" +
 ".repository-content .discussion-sidebar {" +
