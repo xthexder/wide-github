@@ -25,7 +25,7 @@ header .container-lg {
   padding-left: 220px;
   width: 100% !important;
 }
-.discussion-timeline::before { /* The vertical line running through the commit list on PRs */
+#js-repo-pjax-container .repository-content .discussion-timeline::before { /* The vertical line running through the commit list on PRs and issues */
   margin-left: 220px;
 }
 .repository-content .discussion-sidebar {
