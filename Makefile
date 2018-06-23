@@ -8,11 +8,11 @@ js:
 	node makejs.js
 
 chrome:
-	zip wide-github.zip LICENSE manifest.json wide-github.css icon.png
+	zip build/wide-github.zip LICENSE manifest.json wide-github.css icon.png
 
 clean:
-	rm -f wide-github.zip
+	rm -f build/wide-github.zip
 
 clean-all: clean
-	rm -f wide-github.user.js
-	rm -f wide-github.user.css
+	rm -f build/wide-github.user.js
+	rm -f build/wide-github.user.css

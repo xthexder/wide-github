@@ -38,4 +38,4 @@ for (var i = 0; i < lines.length; i++) {
 }
 output += footer;
 
-fs.writeFileSync("wide-github.user.css", output);
+fs.writeFileSync("build/wide-github.user.css", output);
