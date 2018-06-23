@@ -1,3 +1,5 @@
+"use strict";
+
 var fs = require('fs');
 
 var manifest = JSON.parse(fs.readFileSync('manifest.json'));
@@ -6,7 +8,7 @@ var header = "" +
 "\"use strict\";\n" +
 "\n" +
 "// ==UserScript==\n" +
-"// @name        Wide Github\n" +
+"// @name        " + manifest["name"] + "\n" +
 "// @namespace   https://github.com/xthexder/wide-github\n" +
 "// @description " + manifest["description"] + "\n" +
 "// @author      xthexder\n" +
@@ -14,7 +16,7 @@ var header = "" +
 "// @contributor Jason Frey (https://github.com/Fryguy)\n" +
 "// @contributor Marti Martz (https://github.com/Martii)\n" +
 "// @contributor Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
-"// @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE\n" +
+"// @license     " + manifest["licenses"][0].type + "; " + manifest["licenses"][0].url + "\n" +
 "// @version     " + manifest["version"] + "\n" +
 "// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png\n" +
 "// @homepageURL https://github.com/xthexder/wide-github\n" +

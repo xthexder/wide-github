@@ -16,7 +16,11 @@ As a Greasemonkey / UserScript:
 
 This script can be installed into Greasemonkey or other user script plugins by going here: [wide-github.user.js](https://raw.githubusercontent.com/xthexder/wide-github/master/wide-github.user.js)
 
+As a Stylus / UserCSS
+
+This style can be installed into Stylus by going here: [wide-github.user.css](https://raw.githubusercontent.com/xthexder/wide-github/master/wide-github.user.css)
+
 Development
 -----------
 
-To generate the user.js file for Greasemonkey, run `make js`. The chrome extension can be built using `make chrome`.
+To generate the user.js for Greasemonkey, run `make js`. The user.css can be built using `make css`. The chrome extension can be built using `make chrome`.
