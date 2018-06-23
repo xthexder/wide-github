@@ -14,11 +14,11 @@ This chrome extension can be installed from the [Chrome Web Store](https://chrom
 
 As a Greasemonkey / UserScript:
 
-This script can be installed into Greasemonkey or other user script plugins by going here: [wide-github.user.js](https://raw.githubusercontent.com/xthexder/wide-github/master/wide-github.user.js)
+This script can be installed into Greasemonkey or other user script plugins by going here: [wide-github.user.js](https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.js)
 
 As a Stylus / UserCSS
 
-This style can be installed into Stylus by going here: [wide-github.user.css](https://raw.githubusercontent.com/xthexder/wide-github/master/wide-github.user.css)
+This style can be installed into Stylus by going here: [wide-github.user.css](https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.css)
 
 Development
 -----------
