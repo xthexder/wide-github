@@ -70,3 +70,12 @@ header .container-lg {
   margin-right: 20px !important;
   min-width: 980px;
 }
+
+/* Wiki and overviews */
+.application-main .container-lg { 
+  max-width: inherit; 
+}
+    
+.application-main .container-lg img.avatar.width-full { /* Fix regression with https://github.com/username icon being only horizontally stretched */
+  height: 100% !important;
+}
