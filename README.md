@@ -24,3 +24,9 @@ Development
 -----------
 
 To generate the user.js for Greasemonkey, run `make js`. The user.css can be built using `make css`. The chrome extension can be built using `make chrome`.
+
+Personalization
+-------------
+
+The size of the margins can be modified if you don't like the default 20px as it can look too wide on wide-screens/resolutions. Increasing this value will make the margins larger and therefore reduce the width of the github interface.
+Modify the defaults `margin-left: 20px` and `margin-right: 20px` to, for example, 300px, in the source you're using (i.e, [wide-github.user.js](https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.js) for the UserScript and [wide-github.user.css](https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.css) for the UserCSS).
