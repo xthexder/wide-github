@@ -1,12 +1,20 @@
 header .container,
 header .container-lg {
   max-width: none !important;
-  min-width: 980px;
 }
 #js-repo-pjax-container .container {
   width: auto !important;
-  margin-left: 20px !important;
-  margin-right: 20px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  min-width: 980px;
+}
+#js-repo-pjax-container .container-lg {
+  max-width: none !important;
+}
+#js-pjax-container .container {
+  width: auto !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
   min-width: 980px;
 }
 .full-width .container {
@@ -69,4 +77,10 @@ header .container-lg {
   margin-left: 20px !important;
   margin-right: 20px !important;
   min-width: 980px;
+}
+.gist-content-wrapper .container-lg {
+  max-width: none !important;
+}
+.gist-content-wrapper .container-lg .h-card {
+  width: 253px !important;
 }
