@@ -22,6 +22,14 @@ header .container-lg {
   padding-right: 0px !important;
 }
 
+/* CollinChaffin Fix for Octotree this also introduces unwanted horizontal scrollbars due to inline GH styles */
+/* Also required is the change to loading in above directives and fix below for scrollbars */
+.container-lg {
+  max-width: inherit !important;
+/* CollinChaffin Fix for horizontal scrollbars with Octotree */
+  margin-left: 0px !important;
+}
+
 /* New PR split diff */
 .full-width .new-pr-form {
   max-width: none !important;

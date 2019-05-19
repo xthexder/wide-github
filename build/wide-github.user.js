@@ -9,12 +9,14 @@
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
+// @contributor Collin Chaffin (https://github.com/CollinChaffin)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
 // @version     1.2.4
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
 // @include     *github.com*
+// @run-at      document-end
 // @grant       none
 // ==/UserScript==
 
@@ -41,6 +43,14 @@ var styleSheet = "" +
 ".full-width .container {" +
   "padding-left: 0px !important;" +
   "padding-right: 0px !important;" +
+"}" +
+
+// CollinChaffin Fix for Octotree this also introduces unwanted horizontal scrollbars due to inline GH styles
+// Also required is the change to loading in above directives and fix below for scrollbars
+".container-lg {" +
+  "max-width: inherit !important;" +
+// CollinChaffin Fix for horizontal scrollbars with Octotree
+  "margin-left: 0px !important;" +
 "}" +
 
 // New PR split diff

@@ -16,16 +16,18 @@ var header = "" +
 "// @contributor Jason Frey (https://github.com/Fryguy)\n" +
 "// @contributor Marti Martz (https://github.com/Martii)\n" +
 "// @contributor Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
+"// @contributor Collin Chaffin (https://github.com/CollinChaffin)\n" +
 "// @license     " + manifest["licenses"][0].type + "; " + manifest["licenses"][0].url + "\n" +
 "// @version     " + manifest["version"] + "\n" +
 "// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png\n" +
 "// @homepageURL https://github.com/xthexder/wide-github\n" +
 "// @supportURL  https://github.com/xthexder/wide-github/issues\n" +
 "// @include     *github.com*\n" +
+"// @run-at      document-end\n" +
 "// @grant       none\n" +
 "// ==/UserScript==\n" +
 "\n" +
-"var styleSheet = \"\" +\n" +
+"var styleSheet = \"\" +\n" + 
 "";
 
 var footer = "" +
