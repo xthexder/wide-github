@@ -44,6 +44,7 @@ var lines = styleSheet.toString().split("\n");
 
 var output = header;
 for (var i = 0; i < lines.length; i++) {
+	lines[i] = lines[i].trimRight();
 	if (lines[i] !== "") {
 		lines[i] = lines[i].replace(/^( *)([^\/])/, "$1\"$2");
 		if (!lines[i].match(/^ *\/\*/)) lines[i] = lines[i].replace(/( *\/\*[^\*]*\*\/)?$/, "\" +$1");

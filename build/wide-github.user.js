@@ -10,7 +10,7 @@
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.2.3
+// @version     1.2.4
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -22,12 +22,20 @@ var styleSheet = "" +
 "header .container," +
 "header .container-lg {" +
   "max-width: none !important;" +
-  "min-width: 980px;" +
 "}" +
 "#js-repo-pjax-container .container {" +
   "width: auto !important;" +
-  "margin-left: 20px !important;" +
-  "margin-right: 20px !important;" +
+  "padding-left: 16px !important;" +
+  "padding-right: 16px !important;" +
+  "min-width: 980px;" +
+"}" +
+"#js-repo-pjax-container .container-lg {" +
+  "max-width: none !important;" +
+"}" +
+"#js-pjax-container .container {" +
+  "width: auto !important;" +
+  "padding-left: 16px !important;" +
+  "padding-right: 16px !important;" +
   "min-width: 980px;" +
 "}" +
 ".full-width .container {" +
@@ -90,6 +98,12 @@ var styleSheet = "" +
   "margin-left: 20px !important;" +
   "margin-right: 20px !important;" +
   "min-width: 980px;" +
+"}" +
+".gist-content-wrapper .container-lg {" +
+  "max-width: none !important;" +
+"}" +
+".gist-content-wrapper .container-lg .h-card {" +
+  "width: 253px !important;" +
 "}" +
 
 "";
