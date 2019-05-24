@@ -2,29 +2,32 @@ header .container,
 header .container-lg {
   max-width: none !important;
 }
-#js-repo-pjax-container .container {
+.application-main .container {
   width: auto !important;
   padding-left: 16px !important;
   padding-right: 16px !important;
+  margin-left: 0px !important;
   min-width: 980px;
 }
-#js-repo-pjax-container .container-lg {
+.application-main .container-lg {
   max-width: none !important;
+  margin-left: 0px !important;
 }
-#js-pjax-container .container {
-  width: auto !important;
-  padding-left: 16px !important;
-  padding-right: 16px !important;
-  min-width: 980px;
-}
-.full-width .container {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+.footer.container-lg {
+  max-width: none !important;
+  margin-left: 0px !important;
 }
 
 /* New PR split diff */
 .full-width .new-pr-form {
   max-width: none !important;
+}
+/* Floating PR toolbar */
+.pr-toolbar {
+  margin-left: -16px !important;
+  margin-right: -16px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
 }
 
 /* Repository Issues */
