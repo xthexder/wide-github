@@ -8,7 +8,8 @@ js:
 	node makejs.js
 
 chrome:
-	zip build/wide-github.zip LICENSE manifest.json wide-github.css icon.png
+	zip build/wide-github.zip LICENSE manifest.json background.js \
+		wide-github.css wide-github-toggle.js icon.png icon-disabled.png
 
 clean:
 	rm -f build/wide-github.zip
