@@ -17,11 +17,5 @@
   ],
   "background": {
     "scripts": ["background.js"]
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE"
-    }
-  ]
+  }
 }
