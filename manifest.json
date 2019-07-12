@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Wide Github",
-  "description": "Change all Github repository and gist pages to be full width and dynamically sized.",
-  "version": "1.4.0",
+  "description": "Change all Github repository and gist pages to be full width and dynamically sized. Also deactivates filename truncation.",
+  "version": "1.5.0",
 
   "browser_action": {
     "default_icon": "icon.png"

@@ -19,6 +19,14 @@ body:not(.wgh-disabled) .pr-toolbar {
   padding-right: 16px !important;
 }
 
+/* Pull filenames in PR changes */
+body:not(.wgh-disabled) a.css-truncate.css-truncate-target,
+body:not(.wgh-disabled) a.css-truncate .css-truncate-target {
+  display: initial;
+  max-width: initial !important;
+  white-space: initial;
+}
+
 /* Repository Issues */
 body:not(.wgh-disabled) #js-repo-pjax-container .repository-content .discussion-timeline {  /* Issue body */
   margin-left: -220px;
