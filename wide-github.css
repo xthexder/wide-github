@@ -21,12 +21,7 @@ body:not(.wgh-disabled) .pr-toolbar {
 
 /* Repository Issues */
 body:not(.wgh-disabled) #js-repo-pjax-container .repository-content .discussion-timeline {  /* Issue body */
-  margin-left: -220px;
-  padding-left: 220px;
   width: 100% !important;
-}
-body:not(.wgh-disabled) #js-repo-pjax-container .repository-content .discussion-timeline::before { /* The vertical line running through the commit list on PRs and issues */
-  margin-left: 220px;
 }
 body:not(.wgh-disabled) .repository-content .timeline-new-comment { /* New Issue / issue comment form */
   max-width: 100% !important;
