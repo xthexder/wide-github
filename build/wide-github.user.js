@@ -9,8 +9,9 @@
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
+// @contributor Robert Laverty (https://github.com/roblav96)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.4.0
+// @version     1.4.1
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -42,12 +43,7 @@ var styleSheet = "" +
 
 // Repository Issues
 "body:not(.wgh-disabled) #js-repo-pjax-container .repository-content .discussion-timeline {" +  // Issue body
-  "margin-left: -220px;" +
-  "padding-left: 220px;" +
   "width: 100% !important;" +
-"}" +
-"body:not(.wgh-disabled) #js-repo-pjax-container .repository-content .discussion-timeline::before {" + // The vertical line running through the commit list on PRs and issues
-  "margin-left: 220px;" +
 "}" +
 "body:not(.wgh-disabled) .repository-content .timeline-new-comment {" + // New Issue / issue comment form
   "max-width: 100% !important;" +
