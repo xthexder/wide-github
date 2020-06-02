@@ -34,6 +34,13 @@ body:not(.wgh-disabled) .repository-content #all_commit_comments .comment-holder
   max-width: inherit !important;
 }
 
+/* New Preview UI*/
+body:not(.wgh-disabled) .new-discussion-timeline { /* Graph cards on contributors / graph list */
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+
 /* Repository graph page */
 body:not(.wgh-disabled) .repository-content .capped-card-content { /* Graph cards on contributors / graph list */
   width: 100% !important;
