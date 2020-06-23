@@ -75,6 +75,15 @@ var styleSheet = "" +
   "width: 253px !important;" +
 "}" +
 
+// New github design
+"body:not(.wgh-disabled) .container-lg, body:not(.wgh-disabled) .container-xl {" +
+  "margin-left: 0px !important;" +
+  "margin-right: 0px !important;" +
+"}" +
+
+"body:not(.wgh-disabled) .container-xl {" +
+  "max-width: none !important;" +
+"}" +
 "";
 
 (function () {
