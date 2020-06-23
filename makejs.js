@@ -17,7 +17,8 @@ var header = "" +
 "// @contributor Marti Martz (https://github.com/Martii)\n" +
 "// @contributor Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
 "// @contributor Robert Laverty (https://github.com/roblav96)\n" +
-"// @license     " + manifest["licenses"][0].type + "; " + manifest["licenses"][0].url + "\n" +
+"// @contributor Amir Meimari (https://github.com/amirmeimari)\n" +
+"// @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE\n" +
 "// @version     " + manifest["version"] + "\n" +
 "// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png\n" +
 "// @homepageURL https://github.com/xthexder/wide-github\n" +

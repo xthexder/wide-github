@@ -10,8 +10,9 @@
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
 // @contributor Robert Laverty (https://github.com/roblav96)
+// @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.4.1
+// @version     1.4.2
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -31,6 +32,11 @@ var styleSheet = "" +
 "body:not(.wgh-disabled) .footer.container-lg {" +
   "max-width: none !important;" +
   "margin-left: 0px !important;" +
+"}" +
+
+// New github design
+"body:not(.wgh-disabled) .application-main .container-xl {" +
+  "max-width: none !important;" +
 "}" +
 
 // Floating PR toolbar
@@ -75,15 +81,6 @@ var styleSheet = "" +
   "width: 253px !important;" +
 "}" +
 
-// New github design
-"body:not(.wgh-disabled) .container-lg, body:not(.wgh-disabled) .container-xl {" +
-  "margin-left: 0px !important;" +
-  "margin-right: 0px !important;" +
-"}" +
-
-"body:not(.wgh-disabled) .container-xl {" +
-  "max-width: none !important;" +
-"}" +
 "";
 
 (function () {
