@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.4.2
+// @version     1.4.3
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
