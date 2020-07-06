@@ -1,9 +1,9 @@
 "use strict";
 
 // ==UserScript==
-// @name        Wide Github
+// @name        Wide GitHub
 // @namespace   https://github.com/xthexder/wide-github
-// @description Change all Github repository and gist pages to be full width and dynamically sized.
+// @description Change all GitHub repository and gist pages to be full width and dynamically sized.
 // @author      xthexder
 // @copyright   2013+, xthexder (https://github.com/xthexder)
 // @contributor Jason Frey (https://github.com/Fryguy)
