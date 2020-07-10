@@ -1,7 +1,7 @@
-Wide Github
+Wide GitHub
 ===========
 
-This plugin changes all github repository pages to be full width and dynamically sized. Gists are supported as of version 1.1.0.
+This plugin changes all GitHub repository pages to be full width and dynamically sized. Gists are supported as of version 1.1.0.
 
 This repository always contains the latest version, the Chrome Store may not have been updated as recently.
 
