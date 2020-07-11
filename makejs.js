@@ -20,7 +20,7 @@ var header = "" +
 "// @contributor Amir Meimari (https://github.com/amirmeimari)\n" +
 "// @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE\n" +
 "// @version     " + manifest["version"] + "\n" +
-"// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png\n" +
+"// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png\n" +
 "// @homepageURL https://github.com/xthexder/wide-github\n" +
 "// @supportURL  https://github.com/xthexder/wide-github/issues\n" +
 "// @include     *github.com*\n" +

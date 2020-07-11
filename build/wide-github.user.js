@@ -13,7 +13,7 @@
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
 // @version     1.4.3
-// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icon.png
+// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
 // @include     *github.com*
