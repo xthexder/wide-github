@@ -10,7 +10,11 @@ Installing
 
 As a Chrome Extension:
 
-This chrome extension can be installed from the [Chrome Web Store](https://chrome.google.com/webstore/detail/wide-github/kaalofacklcidaampbokdplbklpeldpj)
+The Chrome extension can be installed from the [Chrome Web Store](https://chrome.google.com/webstore/detail/wide-github/kaalofacklcidaampbokdplbklpeldpj)
+
+As a Firefox Addon:
+
+The Firefox addon can be installed from the [Mozilla Addons Website](https://addons.mozilla.org/en-US/firefox/addon/wide-github-chrome/)
 
 As a Greasemonkey / UserScript:
 
@@ -23,4 +27,9 @@ This style can be installed into Stylus by going here: [wide-github.user.css](ht
 Development
 -----------
 
-To generate the user.js for Greasemonkey, run `make js`. The user.css can be built using `make css`. The chrome extension can be built using `make chrome`.
+To generate the user.js for Greasemonkey, run `make js`.
+
+The user.css can be built using `make css`.
+
+The chrome extension and firefox addon are identical and can be built using `make chrome`.
+

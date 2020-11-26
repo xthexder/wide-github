@@ -5,13 +5,13 @@
   "description": "Change all GitHub repository and gist pages to be full width and dynamically sized.",
   "version": "1.4.3",
   "icons": {
-    "32": "icon32.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
 
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "icons/icon.png",
     "default_title": "Toggle Wide GitHub"
   },
   "content_scripts": [

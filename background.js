@@ -2,7 +2,7 @@ var toggle = true;
 
 chrome.browserAction.onClicked.addListener(function(tab){
   toggle = !toggle;
-  chrome.browserAction.setIcon({path: (toggle ? "icon.png" : "icon-disabled.png")});
+  chrome.browserAction.setIcon({path: (toggle ? "icons/icon.png" : "icons/icon-disabled.png")});
   chrome.tabs.sendMessage(tab.id, {enableWideGithub: toggle});
 });
 
