@@ -60,3 +60,8 @@ body:not(.wgh-disabled) .gist-content-wrapper .container-lg {
 body:not(.wgh-disabled) .gist-content-wrapper .container-lg .h-card {
   width: 253px !important;
 }
+
+/* Refined GitHub extension conflict fix */
+.refined-github > body:not(.wgh-disabled, .full-width, .enterprise) main > .hide-full-screen > * {
+  padding-left: 0px !important;
+}

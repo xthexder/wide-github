@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.4.4
+// @version     1.4.5
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -82,6 +82,11 @@ var styleSheet = "" +
 "}" +
 "body:not(.wgh-disabled) .gist-content-wrapper .container-lg .h-card {" +
   "width: 253px !important;" +
+"}" +
+
+// Refined GitHub extension conflict fix
+".refined-github > body:not(.wgh-disabled, .full-width, .enterprise) main > .hide-full-screen > * {" +
+  "padding-left: 0px !important;" +
 "}" +
 
 "";
