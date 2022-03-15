@@ -14,7 +14,7 @@ The Chrome extension can be installed from the [Chrome Web Store](https://chrome
 
 As a Firefox Addon:
 
-The Firefox addon can be installed from the [Mozilla Addons Website](https://addons.mozilla.org/en-US/firefox/addon/wide-github-chrome/)
+The Firefox addon can be installed from the [Mozilla Addons Website](https://addons.mozilla.org/firefox/addon/wide-github-chrome/)
 
 As a Greasemonkey / UserScript:
 
