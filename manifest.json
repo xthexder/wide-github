@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
   "name": "Wide GitHub",
   "description": "Change all GitHub repository and gist pages to be full width and dynamically sized.",
@@ -10,7 +10,7 @@
     "128": "icons/icon128.png"
   },
 
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon.png",
     "default_title": "Toggle Wide GitHub"
   },
@@ -22,6 +22,6 @@
     }
   ],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   }
 }
