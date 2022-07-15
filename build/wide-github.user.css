@@ -50,6 +50,15 @@
   body:not(.wgh-disabled) .repository-content .timeline-new-comment { /* New Issue / issue comment form */
     max-width: 100% !important;
   }
+  body:not(.wgh-disabled) .repository-content .new-discussion-timeline .files-bucket > div { /* New PR code diff */
+    width: inherit !important;
+    left: auto !important;
+    right: auto !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
   body:not(.wgh-disabled) .repository-content .inline-comments .comment-holder, /* Diff / code comments */
   body:not(.wgh-disabled) .repository-content .inline-comments .inline-comment-form-container,
   body:not(.wgh-disabled) .repository-content .inline-comments .inline-comment-form,
