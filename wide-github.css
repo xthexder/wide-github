@@ -56,18 +56,10 @@ body:not(.wgh-disabled) .repository-content .capped-card-content { /* Graph card
   width: 100% !important;
 }
 
-/* Gists */
-body:not(.wgh-disabled) .gist-content-wrapper .container {
-  width: auto !important;
-  margin-left: 20px !important;
-  margin-right: 20px !important;
-  min-width: 980px;
-}
-body:not(.wgh-disabled) .gist-content-wrapper .container-lg {
-  max-width: none !important;
-}
-body:not(.wgh-disabled) .gist-content-wrapper .container-lg .h-card {
-  width: 253px !important;
+/* New gist input field height */
+body:not(.wgh-disabled) .gist-content .commit-create .CodeMirror {
+  min-height: 250px;
+  height: calc(100vh - 500px) !important;
 }
 
 /* Refined GitHub extension conflict fix */
