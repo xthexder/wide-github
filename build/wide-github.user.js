@@ -16,7 +16,7 @@
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
-// @include     *github.com*
+// @match      *://github.com/*
 // @grant       none
 // ==/UserScript==
 
