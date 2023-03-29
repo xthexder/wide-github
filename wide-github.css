@@ -62,7 +62,8 @@ body:not(.wgh-disabled) .gist-content .commit-create .CodeMirror {
   height: calc(100vh - 500px) !important;
 }
 
+/* Does not appear to be needed anymore - SK 2023-03-29 */
 /* Refined GitHub extension conflict fix */
-.refined-github > body:not(.wgh-disabled, .full-width, .enterprise) main > .hide-full-screen > * {
+/* .refined-github > body:not(.wgh-disabled, .full-width, .enterprise) main > .hide-full-screen > * {
   padding-left: 0px !important;
-}
+} */

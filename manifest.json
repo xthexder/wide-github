@@ -1,16 +1,17 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
 
-  "name": "Wide GitHub",
+  "name": "Wide GitHub (RTLabs fork)",
   "description": "Change all GitHub repository and gist pages to be full width and dynamically sized.",
-  "version": "1.5.0",
+  "version": "1.5.1",
+  "version_name": "1.5.1-RTLabs",
   "icons": {
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
 
-  "browser_action": {
+  "action": {
     "default_icon": "icons/icon.png",
     "default_title": "Toggle Wide GitHub"
   },
@@ -22,6 +23,6 @@
     }
   ],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   }
 }
