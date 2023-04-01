@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.5.0
+// @version     1.5.1
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -71,8 +71,8 @@ var styleSheet = "" +
 "body:not(.wgh-disabled) .repository-content #all_commit_comments .comment-holder {" +
   "max-width: inherit !important;" +
 "}" +
-"body:not(.wgh-disabled) .repository-content .js-issue-row .col-3.text-right {" + // Issue list Assignee alignment
-  "max-width: 288px !important;" +
+"body:not(.wgh-disabled) .repository-content .js-issue-row .text-right {" + // Issue list Assignee alignment
+  "max-width: 303px !important;" +
 "}" +
 
 // Repository graph page

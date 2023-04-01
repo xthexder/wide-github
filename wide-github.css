@@ -47,8 +47,8 @@ body:not(.wgh-disabled) .repository-content #all_commit_comments .commit-comment
 body:not(.wgh-disabled) .repository-content #all_commit_comments .comment-holder {
   max-width: inherit !important;
 }
-body:not(.wgh-disabled) .repository-content .js-issue-row .col-3.text-right { /* Issue list Assignee alignment */
-  max-width: 288px !important;
+body:not(.wgh-disabled) .repository-content .js-issue-row .text-right { /* Issue list Assignee alignment */
+  max-width: 303px !important;
 }
 
 /* Repository graph page */
@@ -60,9 +60,4 @@ body:not(.wgh-disabled) .repository-content .capped-card-content { /* Graph card
 body:not(.wgh-disabled) .gist-content .commit-create .CodeMirror {
   min-height: 250px;
   height: calc(100vh - 500px) !important;
-}
-
-/* Refined GitHub extension conflict fix */
-.refined-github > body:not(.wgh-disabled, .full-width, .enterprise) main > .hide-full-screen > * {
-  padding-left: 0px !important;
 }
