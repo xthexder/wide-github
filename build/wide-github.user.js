@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.5.1
+// @version     1.5.2
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -49,13 +49,13 @@ var styleSheet = "" +
 "}" +
 
 // Repository Issues
-"body:not(.wgh-disabled) #js-repo-pjax-container .repository-content .discussion-timeline {" +  // Issue body
+"body:not(.wgh-disabled) #js-repo-pjax-container .discussion-timeline {" +  // Issue body
   "width: 100% !important;" +
 "}" +
-"body:not(.wgh-disabled) .repository-content .timeline-new-comment {" + // New Issue / issue comment form
+"body:not(.wgh-disabled) #js-repo-pjax-container .timeline-new-comment {" + // New Issue / issue comment form
   "max-width: 100% !important;" +
 "}" +
-"body:not(.wgh-disabled) .repository-content .new-discussion-timeline .files-bucket > div {" + // New PR code diff
+"body:not(.wgh-disabled) #js-repo-pjax-container .new-discussion-timeline .files-bucket > div {" + // New PR code diff
   "width: inherit !important;" +
   "left: auto !important;" +
   "right: auto !important;" +
@@ -64,19 +64,19 @@ var styleSheet = "" +
   "padding-left: 0px !important;" +
   "padding-right: 0px !important;" +
 "}" +
-"body:not(.wgh-disabled) .repository-content .inline-comments .comment-holder," + // Diff / code comments
-"body:not(.wgh-disabled) .repository-content .inline-comments .inline-comment-form-container," +
-"body:not(.wgh-disabled) .repository-content .inline-comments .inline-comment-form," +
-"body:not(.wgh-disabled) .repository-content #all_commit_comments .commit-comments-heading," +
-"body:not(.wgh-disabled) .repository-content #all_commit_comments .comment-holder {" +
+"body:not(.wgh-disabled) #js-repo-pjax-container .inline-comments .comment-holder," + // Diff / code comments
+"body:not(.wgh-disabled) #js-repo-pjax-container .inline-comments .inline-comment-form-container," +
+"body:not(.wgh-disabled) #js-repo-pjax-container .inline-comments .inline-comment-form," +
+"body:not(.wgh-disabled) #js-repo-pjax-container #all_commit_comments .commit-comments-heading," +
+"body:not(.wgh-disabled) #js-repo-pjax-container #all_commit_comments .comment-holder {" +
   "max-width: inherit !important;" +
 "}" +
-"body:not(.wgh-disabled) .repository-content .js-issue-row .text-right {" + // Issue list Assignee alignment
+"body:not(.wgh-disabled) #js-repo-pjax-container .js-issue-row .text-right {" + // Issue list Assignee alignment
   "max-width: 303px !important;" +
 "}" +
 
 // Repository graph page
-"body:not(.wgh-disabled) .repository-content .capped-card-content {" + // Graph cards on contributors / graph list
+"body:not(.wgh-disabled) #js-repo-pjax-container .capped-card-content {" + // Graph cards on contributors / graph list
   "width: 100% !important;" +
 "}" +
 
