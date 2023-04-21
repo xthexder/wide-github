@@ -15,7 +15,7 @@ chrome-extension:
 	cp wide-github.css build/chrome/wide-github.css
 	cp wide-github-toggle.js build/chrome/wide-github-toggle.js
 	cp -rT icons build/chrome/icons/
-	cd build/chrome/ && zip wide-github.tmp.zip *
+	cd build/chrome/ && zip -r wide-github.tmp.zip *
 	mv build/chrome/wide-github.tmp.zip build/wide-github-chrome.zip
 
 mozilla-extension:
@@ -26,7 +26,7 @@ mozilla-extension:
 	cp wide-github.css build/mozilla/wide-github.css
 	cp wide-github-toggle.js build/mozilla/wide-github-toggle.js
 	cp -rT icons build/mozilla/icons/
-	cd build/mozilla/ && zip wide-github.tmp.zip *
+	cd build/mozilla/ && zip -r wide-github.tmp.zip *
 	mv build/mozilla/wide-github.tmp.zip build/wide-github-mozilla.zip
 
 clean:
