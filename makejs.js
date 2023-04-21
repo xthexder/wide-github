@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 
-var manifest = JSON.parse(fs.readFileSync('manifest.json'));
+var manifest = JSON.parse(fs.readFileSync('mozilla/manifest.json'));
 
 var header = "" +
 "\"use strict\";\n" +
@@ -12,7 +12,7 @@ var header = "" +
 "// @namespace   https://github.com/xthexder/wide-github\n" +
 "// @description " + manifest["description"] + "\n" +
 "// @author      xthexder\n" +
-"// @copyright   2013+, xthexder (https://github.com/xthexder)\n" +
+"// @copyright   2013-2023, xthexder (https://github.com/xthexder)\n" +
 "// @contributor Jason Frey (https://github.com/Fryguy)\n" +
 "// @contributor Marti Martz (https://github.com/Martii)\n" +
 "// @contributor Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
@@ -23,7 +23,8 @@ var header = "" +
 "// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png\n" +
 "// @homepageURL https://github.com/xthexder/wide-github\n" +
 "// @supportURL  https://github.com/xthexder/wide-github/issues\n" +
-"// @include     *github.com*\n" +
+"// @match       https://github.com/*\n" +
+"// @match       https://gist.github.com/*\n" +
 "// @grant       none\n" +
 "// ==/UserScript==\n" +
 "\n" +

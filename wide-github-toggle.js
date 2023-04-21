@@ -1,15 +1,12 @@
 function setDisabledClass(obj) {
-  if (obj.enableWideGithub)
-  {
+  if (obj.enableWideGithub) {
     document.body.classList.remove('wgh-disabled');
-  }
-  else
-  {
+  } else {
     document.body.classList.add('wgh-disabled');
   }
 }
 
-chrome.runtime.onMessage.addListener(function(request, sender, callback) {
+chrome.runtime.onMessage.addListener((request, sender, callback) => {
   setDisabledClass(request);
 });
 

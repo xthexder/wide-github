@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Wide GitHub",
+  "description": "Change all GitHub repository and gist pages to be full width and dynamically sized.",
+  "version": "1.5.0",
+  "icons": {
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{a29c89d0-8d34-47c1-8c30-6e4ade95bd1a}"
+    }
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon.png",
+    "default_title": "Toggle Wide GitHub"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*", "https://gist.github.com/*"],
+      "css": ["wide-github.css"],
+      "js": ["wide-github-toggle.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
