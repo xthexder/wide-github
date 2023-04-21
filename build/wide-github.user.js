@@ -86,11 +86,6 @@ var styleSheet = "" +
   "height: calc(100vh - 500px) !important;" +
 "}" +
 
-// Refined GitHub extension conflict fix
-".refined-github > body:not(.wgh-disabled, .full-width, .enterprise) main > .hide-full-screen > * {" +
-  "padding-left: 0px !important;" +
-"}" +
-
 "";
 
 (function () {
