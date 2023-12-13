@@ -34,10 +34,19 @@ var styleSheet = "" +
   "max-width: none !important;" +
   "margin-left: 0px !important;" +
 "}" +
-
-// New github design
 "body:not(.wgh-disabled) .application-main .container-xl {" +
   "max-width: none !important;" +
+"}" +
+
+// New github repository react divs (2023)
+"body:not(.wgh-disabled) .repository-content .react-repos-overview-margin {" +
+  "margin-right: 0;" +
+"}" +
+"body:not(.wgh-disabled) .repository-content div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) {" +
+  "max-width: none;" +
+"}" +
+"body:not(.wgh-disabled) .repository-content div[data-selector="repos-split-pane-content"] {" +
+  "max-width: none;" +
 "}" +
 
 // Floating PR toolbar
