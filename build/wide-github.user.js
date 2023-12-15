@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.6.2
+// @version     1.6.3
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -48,8 +48,12 @@ var styleSheet = "" +
   "max-width: none;" +
 "}" +
 
-// Commit history page
+// Commit History page
 "body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-']:first-child {" +
+  "max-width: none;" +
+"}" +
+// Your Branches page
+"body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height:100vh"] > div[class^='Box-sc-']:first-child {" +
   "max-width: none;" +
 "}" +
 

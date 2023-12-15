@@ -24,8 +24,12 @@ body:not(.wgh-disabled) .Layout-main div[data-selector="repos-split-pane-content
   max-width: none;
 }
 
-/* Commit history page */
+/* Commit History page */
 body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-']:first-child {
+  max-width: none;
+}
+/* Your Branches page */
+body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height:100vh"] > div[class^='Box-sc-']:first-child {
   max-width: none;
 }
 
