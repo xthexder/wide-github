@@ -3,7 +3,7 @@
 
   "name": "Wide GitHub",
   "description": "Change all GitHub repository and gist pages to be full width and dynamically sized.",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "icons": {
     "32": "icons/icon32.png",
     "48": "icons/icon48.png",

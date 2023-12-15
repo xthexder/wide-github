@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.6.1
+// @version     1.6.2
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -38,13 +38,13 @@ var styleSheet = "" +
 "}" +
 
 // New github repository react divs (2023)
-"body:not(.wgh-disabled) .repository-content .react-repos-overview-margin {" +
+"body:not(.wgh-disabled) .react-repos-overview-margin {" +
   "margin-right: 0;" +
 "}" +
-"body:not(.wgh-disabled) .repository-content div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) {" +
+"body:not(.wgh-disabled) .Layout-main div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) {" +
   "max-width: none;" +
 "}" +
-"body:not(.wgh-disabled) .repository-content div[data-selector="repos-split-pane-content"] {" +
+"body:not(.wgh-disabled) .Layout-main div[data-selector="repos-split-pane-content"] {" +
   "max-width: none;" +
 "}" +
 
