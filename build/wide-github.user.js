@@ -34,19 +34,19 @@ var styleSheet = "" +
 "body:not(.wgh-disabled) .react-repos-overview-margin {" +
   "margin-right: 0;" +
 "}" +
-"body:not(.wgh-disabled) .Layout-main div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) {" +
+"body:not(.wgh-disabled) .Layout-main div[style=\"--sticky-pane-height: 100vh;\"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) {" +
   "max-width: none;" +
 "}" +
-"body:not(.wgh-disabled) .Layout-main div[data-selector="repos-split-pane-content"] {" +
+"body:not(.wgh-disabled) .Layout-main div[data-selector=\"repos-split-pane-content\"] {" +
   "max-width: none;" +
 "}" +
 
 // Commit History page
-"body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-']:first-child {" +
+"body:not(.wgh-disabled) #js-repo-pjax-container div[style=\"--sticky-pane-height: 100vh;\"] > div[class^='Box-sc-']:first-child {" +
   "max-width: none;" +
 "}" +
 // Your Branches page
-"body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height:100vh"] > div[class^='Box-sc-']:first-child {" +
+"body:not(.wgh-disabled) #js-repo-pjax-container div[style=\"--sticky-pane-height:100vh\"] > div[class^='Box-sc-']:first-child {" +
   "max-width: none;" +
 "}" +
 
