@@ -10,20 +10,13 @@
 @contributor  Robert Laverty (https://github.com/roblav96)
 @contributor  Amir Meimari (https://github.com/amirmeimari)
 @license      MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-@version      1.6.3
+@version      1.6.4
 @homepageURL  https://github.com/xthexder/wide-github
 @supportURL   https://github.com/xthexder/wide-github/issues
 ==/UserStyle== */
 
 @-moz-document regexp("^https://(?:gist\\.)?github\\.com/.*") {
 
-  body:not(.wgh-disabled) .application-main .container {
-    width: auto !important;
-    padding-left: 16px !important;
-    padding-right: 16px !important;
-    margin-left: 0px !important;
-    min-width: 980px;
-  }
   body:not(.wgh-disabled) .application-main .container-xl {
     max-width: none !important;
   }
