@@ -1,36 +1,41 @@
+/* General full-page container */
 body:not(.wgh-disabled) .application-main .container-xl {
   max-width: none !important;
 }
+/* General content sub-container */
 body:not(.wgh-disabled) .application-main .container-lg  {
   max-width: none !important;
   margin-left: 0px !important;
 }
 
-/* New github repository react divs (2023) */
+/* Repository home sidebar */
 body:not(.wgh-disabled) .react-repos-overview-margin {
   margin-right: 0;
 }
-body:not(.wgh-disabled) .Layout-main div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) {
-  max-width: none;
-}
-/* Alternative match for above to handle JS-loaded vs full refresh pages */
-body:not(.wgh-disabled) .Layout-main div[style="--sticky-pane-height:100vh"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) {
-  max-width: none;
-}
-body:not(.wgh-disabled) .Layout-main div[data-selector="repos-split-pane-content"] {
+
+/* Commit History and Branches page */
+body:not(.wgh-disabled) #js-repo-pjax-container div[style^="--sticky-pane-height:"] > div[class^='Box-sc-']:first-child {
   max-width: none;
 }
 
-/* Commit History page */
-body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height: 100vh;"] > div[class^='Box-sc-']:first-child {
-  max-width: none;
-}
-/* Your Branches page */
-body:not(.wgh-disabled) #js-repo-pjax-container div[style="--sticky-pane-height:100vh"] > div[class^='Box-sc-']:first-child {
-  max-width: none;
+/* Repository Tags page */
+body:not(.wgh-disabled) .application-main .col-11  {
+  width: 100%;
 }
 
 /* Issue list Assignee alignment */
 body:not(.wgh-disabled) #js-repo-pjax-container .js-issue-row .text-right {
   max-width: 303px !important;
+}
+
+/* New React layout (2024) */
+
+/* Issues list page */
+body:not(.wgh-disabled) .application-main div[style^="--sticky-pane-height:"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) > div[class^='Box-sc-'] {
+  max-width: none;
+}
+
+/* Issue page */
+body:not(.wgh-disabled) #js-repo-pjax-container div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
+  max-width: none;
 }

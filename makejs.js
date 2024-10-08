@@ -12,7 +12,7 @@ var header = "" +
 "// @namespace   https://github.com/xthexder/wide-github\n" +
 "// @description " + manifest["description"] + "\n" +
 "// @author      xthexder\n" +
-"// @copyright   2013-2023, xthexder (https://github.com/xthexder)\n" +
+"// @copyright   2013-2024, xthexder (https://github.com/xthexder)\n" +
 "// @contributor Jason Frey (https://github.com/Fryguy)\n" +
 "// @contributor Marti Martz (https://github.com/Martii)\n" +
 "// @contributor Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
@@ -51,7 +51,7 @@ for (var i = 0; i < lines.length; i++) {
 	if (lines[i] !== "") {
 		lines[i] = lines[i].replace(/"/g, "\\\"");
 		lines[i] = lines[i].replace(/^( *)([^\/])/, "$1\"$2");
-		if (!lines[i].match(/^ *\/\*/)) lines[i] = lines[i].replace(/( *\/\*[^\*]*\*\/)?$/, "\" +$1");
+		if (!lines[i].match(/^ *(\/\*|.*\*\/$)/)) lines[i] = lines[i].replace(/( *\/\*[^\*]*\*\/)?$/, "\" +$1");
 		lines[i] = lines[i].replace(/\/\*(.*)\*\/$/, "//$1").replace(/ +$/, "");
 		output += lines[i];
 	}
