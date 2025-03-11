@@ -26,6 +26,7 @@ var header = "" +
 "// @match       https://github.com/*\n" +
 "// @match       https://gist.github.com/*\n" +
 "// @grant       none\n" +
+"// @run-at      document-start\n" +
 "// ==/UserScript==\n" +
 "\n" +
 "var styleSheet = \"\" +\n" +

@@ -19,6 +19,7 @@
 // @match       https://github.com/*
 // @match       https://gist.github.com/*
 // @grant       none
+// @run-at      document-start
 // ==/UserScript==
 
 var styleSheet = "" +
