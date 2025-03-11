@@ -23,6 +23,7 @@ var header = "" +
 "// @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png\n" +
 "// @homepageURL https://github.com/xthexder/wide-github\n" +
 "// @supportURL  https://github.com/xthexder/wide-github/issues\n" +
+"// @downloadURL https://raw.githubusercontent.com/xthexder/wide-github/master/build/wide-github.user.js\n" +
 "// @match       https://github.com/*\n" +
 "// @match       https://gist.github.com/*\n" +
 "// @grant       none\n" +
