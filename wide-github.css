@@ -39,3 +39,20 @@ body:not(.wgh-disabled) .application-main div[style^="--sticky-pane-height:"] > 
 body:not(.wgh-disabled) #js-repo-pjax-container div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
   max-width: none;
 }
+
+/* New React layout (2025) */
+
+/* Issues list page */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-Content-'] > div[class^='Box-sc-'] {
+  max-width: none;
+}
+
+/* Issue page */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
+  max-width: none;
+}
+
+/* New issue page */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='IssueCreatePage-module__createPaneContainer-'] {
+  max-width: none;
+}

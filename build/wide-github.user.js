@@ -5,14 +5,14 @@
 // @namespace   https://github.com/xthexder/wide-github
 // @description Change all GitHub repository and gist pages to be full width and dynamically sized.
 // @author      xthexder
-// @copyright   2013-2024, xthexder (https://github.com/xthexder)
+// @copyright   2013-2025, xthexder (https://github.com/xthexder)
 // @contributor Jason Frey (https://github.com/Fryguy)
 // @contributor Marti Martz (https://github.com/Martii)
 // @contributor Paul "Joey" Clark (https://github.com/joeytwiddle)
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.6.6
+// @version     1.7.0
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -62,6 +62,23 @@ var styleSheet = "" +
 
 // Issue page
 "body:not(.wgh-disabled) #js-repo-pjax-container div[data-target=\"react-app.reactRoot\"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {" +
+  "max-width: none;" +
+"}" +
+
+// New React layout (2025)
+
+// Issues list page
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='prc-PageLayout-Content-'] > div[class^='Box-sc-'] {" +
+  "max-width: none;" +
+"}" +
+
+// Issue page
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {" +
+  "max-width: none;" +
+"}" +
+
+// New issue page
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='IssueCreatePage-module__createPaneContainer-'] {" +
   "max-width: none;" +
 "}" +
 
