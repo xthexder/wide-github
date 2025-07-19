@@ -46,13 +46,26 @@ body:not(.wgh-disabled) #js-repo-pjax-container div[data-target="react-app.react
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-Content-'] > div[class^='Box-sc-'] {
   max-width: none;
 }
+/* Issues list page (July 2025) */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane-'] {
+  max-width: none;
+}
 
 /* Issue page */
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
   max-width: none;
 }
+/* Issue page (July 2025)  */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='IssueViewer-module__issueViewerContainer-'] > div[class^='Box-sc-'] {
+  max-width: none;
+}
 
 /* New issue page */
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='IssueCreatePage-module__createPaneContainer-'] {
+  max-width: none;
+}
+
+/* Commit list page */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-PageLayoutWrapper-'] {
   max-width: none;
 }

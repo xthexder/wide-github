@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.7.0
+// @version     1.7.1
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -71,14 +71,27 @@ var styleSheet = "" +
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='prc-PageLayout-Content-'] > div[class^='Box-sc-'] {" +
   "max-width: none;" +
 "}" +
+// Issues list page (July 2025)
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane-'] {" +
+  "max-width: none;" +
+"}" +
 
 // Issue page
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {" +
   "max-width: none;" +
 "}" +
+// Issue page (July 2025)
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='IssueViewer-module__issueViewerContainer-'] > div[class^='Box-sc-'] {" +
+  "max-width: none;" +
+"}" +
 
 // New issue page
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='IssueCreatePage-module__createPaneContainer-'] {" +
+  "max-width: none;" +
+"}" +
+
+// Commit list page
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='prc-PageLayout-PageLayoutWrapper-'] {" +
   "max-width: none;" +
 "}" +
 
