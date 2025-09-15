@@ -95,6 +95,10 @@ var styleSheet = "" +
   "max-width: none;" +
 "}" +
 
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='prc-PageLayout-PageLayoutWrapper-'] div[class^='prc-PageLayout-Content-'] {" +
+    "max-width: none;" +
+    "margin-left: 0px !important;" +
+"}" +
 "";
 
 (function () {
