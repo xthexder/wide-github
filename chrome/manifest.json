@@ -17,7 +17,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://github.com/*", "https://gist.github.com/*"],
+      "matches": ["https://github.com/*", "https://gist.github.com/*", "https://*.ghe.com/*],
       "css": ["wide-github.css"],
       "js": ["wide-github-toggle.js"]
     }
