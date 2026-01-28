@@ -59,6 +59,10 @@ body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"]
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='IssueViewer-module__issueViewerContainer-'] > div[class^='Box-sc-'] {
   max-width: none;
 }
+/* Issue page (Jan 2026) */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ContentWrapper-module__contentContainer--'] {
+  max-width: none;
+}
 
 /* New issue page */
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='IssueCreatePage-module__createPaneContainer-'] {

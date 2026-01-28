@@ -12,7 +12,7 @@ var header = "" +
 "// @namespace   https://github.com/xthexder/wide-github\n" +
 "// @description " + manifest["description"] + "\n" +
 "// @author      xthexder\n" +
-"// @copyright   2013-2025, xthexder (https://github.com/xthexder)\n" +
+"// @copyright   2013-2026, xthexder (https://github.com/xthexder)\n" +
 "// @contributor Jason Frey (https://github.com/Fryguy)\n" +
 "// @contributor Marti Martz (https://github.com/Martii)\n" +
 "// @contributor Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
