@@ -12,7 +12,7 @@
 // @contributor Robert Laverty (https://github.com/roblav96)
 // @contributor Amir Meimari (https://github.com/amirmeimari)
 // @license     MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-// @version     1.7.2
+// @version     1.7.3
 // @icon        https://raw.githubusercontent.com/xthexder/wide-github/master/icons/icon.png
 // @homepageURL https://github.com/xthexder/wide-github
 // @supportURL  https://github.com/xthexder/wide-github/issues
@@ -75,6 +75,10 @@ var styleSheet = "" +
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane-'] {" +
   "max-width: none;" +
 "}" +
+// Issues list page (Feb 2026)
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane__'] {" +
+  "max-width: none;" +
+"}" +
 
 // Issue page
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {" +
@@ -86,6 +90,13 @@ var styleSheet = "" +
 "}" +
 // Issue page (Jan 2026)
 "body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='ContentWrapper-module__contentContainer--'] {" +
+  "max-width: none;" +
+"}" +
+// Issue page (Feb 2026)
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='prc-PageLayout-Content-'] {" +
+  "max-width: none;" +
+"}" +
+"body:not(.wgh-disabled) .application-main div[data-target=\"react-app.reactRoot\"] div[class^='ContentWrapper-module__contentContainer__'] {" +
   "max-width: none;" +
 "}" +
 

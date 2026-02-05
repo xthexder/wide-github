@@ -50,6 +50,10 @@ body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"]
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane-'] {
   max-width: none;
 }
+/* Issues list page (Feb 2026) */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane__'] {
+  max-width: none;
+}
 
 /* Issue page */
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
@@ -61,6 +65,13 @@ body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"]
 }
 /* Issue page (Jan 2026) */
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ContentWrapper-module__contentContainer--'] {
+  max-width: none;
+}
+/* Issue page (Feb 2026) */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-Content-'] {
+  max-width: none;
+}
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ContentWrapper-module__contentContainer__'] {
   max-width: none;
 }
 
