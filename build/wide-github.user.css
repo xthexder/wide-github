@@ -9,8 +9,9 @@
 @contributor  Paul "Joey" Clark (https://github.com/joeytwiddle)
 @contributor  Robert Laverty (https://github.com/roblav96)
 @contributor  Amir Meimari (https://github.com/amirmeimari)
+@contributor  Ava Chow (https://github.com/achow101)
 @license      MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE
-@version      1.7.3
+@version      1.7.4
 @homepageURL  https://github.com/xthexder/wide-github
 @supportURL   https://github.com/xthexder/wide-github/issues
 ==/UserStyle== */
@@ -101,6 +102,11 @@
 
   /* Commit list page */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-PageLayoutWrapper-'] {
+    max-width: none;
+  }
+
+  /* PR Page (May 2026) */
+  body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-ContentWrapper'] {
     max-width: none;
   }
 

@@ -16,6 +16,7 @@ var header = "" +
 "@contributor  Paul \"Joey\" Clark (https://github.com/joeytwiddle)\n" +
 "@contributor  Robert Laverty (https://github.com/roblav96)\n" +
 "@contributor  Amir Meimari (https://github.com/amirmeimari)\n" +
+"@contributor  Ava Chow (https://github.com/achow101)\n" +
 "@license      MIT; https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE\n" +
 "@version      " + manifest["version"] + "\n" +
 "@homepageURL  https://github.com/xthexder/wide-github\n" +
