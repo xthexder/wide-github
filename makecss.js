@@ -21,12 +21,20 @@ var header = "" +
 "@version      " + manifest["version"] + "\n" +
 "@homepageURL  https://github.com/xthexder/wide-github\n" +
 "@supportURL   https://github.com/xthexder/wide-github/issues\n" +
+"@preprocessor default\n" +
+"@var range wghFillPercent \"Whitespace to fill (%)\" [100, 0, 100, 5]\n" +
 "==/UserStyle== */\n" +
 "\n" +
 "@-moz-document regexp(\"^https://(?:gist\\\\.)?github\\\\.com/.*\") {\n" +
 "\n";
 
+// Stylus exposes the @var value as a --wghFillPercent custom property on :root.
+// Reading it through var() here keeps this independent of where Stylus places
+// its own :root block relative to this one.
 var footer = "" +
+"  :root {\n" +
+"    --wgh-fill-percent: var(--wghFillPercent);\n" +
+"  }\n" +
 "}\n"
 
 var styleSheet = fs.readFileSync('wide-github.css');

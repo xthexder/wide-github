@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Wide GitHub Options</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --fg: #1f2328;
+      --fg-muted: #59636e;
+      --bg: #ffffff;
+      --border: #d1d9e0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #f0f6fc;
+        --fg-muted: #9198a1;
+        --bg: #0d1117;
+        --border: #3d444d;
+      }
+    }
+    body {
+      margin: 0;
+      padding: 16px;
+      min-width: 320px;
+      font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      color: var(--fg);
+      background: var(--bg);
+    }
+    h1 {
+      margin: 0 0 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      font-size: 16px;
+    }
+    label {
+      display: block;
+      font-weight: 600;
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    #fill-percent {
+      flex: 1;
+      min-width: 0;
+    }
+    #fill-percent-value {
+      min-width: 4ch;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    p {
+      margin: 12px 0 0;
+      color: var(--fg-muted);
+    }
+  </style>
+</head>
+<body>
+  <h1>Wide GitHub</h1>
+
+  <label for="fill-percent">Whitespace to fill</label>
+  <div class="row">
+    <input type="range" id="fill-percent" min="0" max="100" step="5" value="100">
+    <span id="fill-percent-value">100%</span>
+  </div>
+  <p>
+    How much of the unused space each side of the page to fill.
+    100% uses the full window width; 40% fills 40% of the unused space
+    and keeps the remaining 60% as margin down each side.
+  </p>
+  <p>
+    Pages are never made narrower than GitHub's own layout, so this has
+    no effect on windows narrower than 1280px.
+  </p>
+
+  <script src="options.js"></script>
+</body>
+</html>
