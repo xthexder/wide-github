@@ -11,9 +11,15 @@
     "128": "icons/icon128.png"
   },
 
+  "permissions": ["storage"],
+
   "action": {
     "default_icon": "icons/icon.png",
     "default_title": "Toggle Wide GitHub"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
   },
   "content_scripts": [
     {

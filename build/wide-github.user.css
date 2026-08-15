@@ -14,18 +14,29 @@
 @version      1.7.4
 @homepageURL  https://github.com/xthexder/wide-github
 @supportURL   https://github.com/xthexder/wide-github/issues
+@preprocessor default
+@var range wghFillPercent "Whitespace to fill (%)" [100, 0, 100, 5]
 ==/UserStyle== */
 
 @-moz-document regexp("^https://(?:gist\\.)?github\\.com/.*") {
 
+  /* Percentage (0-100) of the unused horizontal whitespace to fill. */
+  /* 100 fills the window completely, 40 fills 40% of the whitespace */
+  /* and keeps 60% of it split down each side of the content. */
+  :root {
+    --wgh-fill-percent: 100;
+    --wgh-base-width: 1280px;
+    --wgh-max-width: max(var(--wgh-base-width), calc(var(--wgh-base-width) + (100vw - var(--wgh-base-width)) * var(--wgh-fill-percent) / 100));
+  }
+
   /* General full-page container */
   body:not(.wgh-disabled) .application-main .container-xl {
-    max-width: none !important;
+    max-width: var(--wgh-max-width) !important;
   }
   /* General content sub-container */
   body:not(.wgh-disabled) .application-main .container-lg  {
-    max-width: none !important;
-    margin-left: 0px !important;
+    max-width: var(--wgh-max-width) !important;
+    margin-left: auto !important;
   }
 
   /* Repository home sidebar */
@@ -35,7 +46,7 @@
 
   /* Commit History and Branches page */
   body:not(.wgh-disabled) #js-repo-pjax-container div[style^="--sticky-pane-height:"] > div[class^='Box-sc-']:first-child {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
   /* Repository Tags page */
@@ -52,62 +63,65 @@
 
   /* Issues list page */
   body:not(.wgh-disabled) .application-main div[style^="--sticky-pane-height:"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-']:nth-child(2) > div[class^='Box-sc-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
   /* Issue page */
   body:not(.wgh-disabled) #js-repo-pjax-container div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
   /* New React layout (2025) */
 
   /* Issues list page */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-Content-'] > div[class^='Box-sc-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
   /* Issues list page (July 2025) */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
   /* Issues list page (Feb 2026) */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ThreePanesLayout-module__ThreePanesLayoutMiddleOnlyPane__'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
   /* Issue page */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] > div[class^='Box-sc-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
   /* Issue page (July 2025)  */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='IssueViewer-module__issueViewerContainer-'] > div[class^='Box-sc-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
   /* Issue page (Jan 2026) */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ContentWrapper-module__contentContainer--'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
   /* Issue page (Feb 2026) */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-Content-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='ContentWrapper-module__contentContainer__'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
   /* New issue page */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='IssueCreatePage-module__createPaneContainer-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
   /* Commit list page */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-PageLayoutWrapper-'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
   /* PR Page (May 2026) */
   body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-ContentWrapper'] {
-    max-width: none;
+    max-width: var(--wgh-max-width);
   }
 
+  :root {
+    --wgh-fill-percent: var(--wghFillPercent);
+  }
 }
