@@ -99,13 +99,14 @@ body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"]
   max-width: none;
 }
 
+/* PR list page HeaderInner (Nov 2026) */
+body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='HeaderInner'] {
+  max-width: none;
+}
+
 /* PR Page (May 2026) */
 body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='prc-PageLayout-ContentWrapper'] {
   max-width: none;
 }
 
-/* PR Page HeaderInner (Nov 2026) */
-body:not(.wgh-disabled) .application-main div[data-target="react-app.reactRoot"] div[class^='HeaderInner'] {
-  max-width: none;
-}
 
